@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "testing-executor",
+    "name": "testing",
+    "region": "us-east-1"
+  }
+}
