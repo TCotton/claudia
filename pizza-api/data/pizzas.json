@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Capriccaosa",
+    "ingredients": [
+      "Mozzarella",
+      "Prosciutto",
+      "Funghi",
+      "Pomodoro"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Margherita",
+    "ingredients": [
+      "Mozzarella",
+      "Pomodoro"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Quattro Stagioni",
+    "ingredients": [
+      "Mozzarella",
+      "Prosciutto",
+      "Funghi",
+      "Pomodoro",
+      "Cipolla",
+      "Olive"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Napoletana",
+    "ingredients": [
+      "Mozzarella",
+      "Pomodoro",
+      "Cipolla",
+      "Olive"
+    ]
+  }
+]
