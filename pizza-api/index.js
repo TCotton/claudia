@@ -16,7 +16,7 @@ api.post('/orders', (request) => createOrder(request.body), {
     success: 201,
     error: 400
 });
-api.put('/orders/{id}', (request) => updateOrder(request.body), {
+api.put('/orders/{id}', (request) => updateOrder(request.pathParams.id, request.body), {
     success: 200,
     error: 400
 });
