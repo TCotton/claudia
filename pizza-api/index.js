@@ -9,7 +9,7 @@ const deleteOrder = require('./handlers/delete-order')
 const api = new App()
 
 api.get('/pizzas', () => 'Hello from Pizza API')
-api.get('/pizzas/{id}', (request) => getPizzas(request.pathParams.id), {
+api.get('/get-pizzas/{id}', (request) => getPizzas(request.pathParams.id), {
     error: 404
 });
 api.post('/orders', (request) => createOrder(request.body), {
