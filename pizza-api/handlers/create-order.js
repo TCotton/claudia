@@ -4,6 +4,7 @@ const rp = require('minimal-request-promise');
 
 function createOrder(order) {
     const o = order;
+    console.log('Save an order', o);
     if (!o || !o.pizza || !o.address) {
         throw new Error('To order pizza, please provide pizza type and address where pizza should be delivered');
     }
