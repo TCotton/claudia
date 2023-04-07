@@ -19,3 +19,5 @@ function generatePresignedUrl() {
             }
         })
 }
+
+module.exports = generatePresignedUrl;
