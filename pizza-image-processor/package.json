@@ -1,7 +1,6 @@
 {
   "name": "pizza-image-processor",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1353.0",
+    "claudia-bot-builder": "^4.5.0",
     "mime": "^3.0.0"
-  }
+  },
+  "description": ""
 }
