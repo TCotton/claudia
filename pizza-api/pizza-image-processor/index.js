@@ -18,3 +18,5 @@ function handlerFunction(event, context, callback) {
         }
     }
 }
+
+exports.handler = handlerFunction;

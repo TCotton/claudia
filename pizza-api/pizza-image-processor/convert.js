@@ -42,3 +42,5 @@ function convert(bucket, filePath) {
             }).promise()
         })
 }
+
+module.exports = convert;
